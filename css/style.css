@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.flex p {
+  padding-bottom: 80px;
+}
+.flex-container {
+  width: 82%;
+  margin: 0 auto;
+}
+body {
+  background-color: aliceblue;
+  margin-top: 100px;
+  font-size: 15px;
+  min-height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  padding-bottom: 20px;
+}
+.one {
+  background-color: hsl(31, 77%, 52%);
+  width: 25%;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.two {
+  background-color: hsl(184, 100%, 22%);
+  width: 25%;
+  padding: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.three {
+  background-color: hsl(179, 100%, 13%);
+  width: 25%;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.learn {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(31, 77%, 52%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+.learn-1 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(184, 100%, 22%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+.learn-2 {
+  background-color: hsl(0, 0%, 95%);
+  color: hsl(179, 100%, 13%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 70%;
+  border-radius: 10px;
+}
+h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+@media (max-width: 426px) {
+  .flex {
+    flex-direction: column;
+  }
+  .one {
+    width: 100%;
+  }
+  .two {
+    width: 100%;
+  }
+  .three {
+    width: 100%;
+  }
+}
