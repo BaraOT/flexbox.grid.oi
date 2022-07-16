@@ -89,17 +89,43 @@ h2 {
   text-align: center;
   padding-bottom: 30px;
 }
+.learn:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+  border: 2px solid white;
+}
+.learn-1:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+  border: 2px solid white;
+}
+.learn-2:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
+  border: 2px solid white;
+}
 @media (max-width: 426px) {
   .flex {
     flex-direction: column;
   }
   .one {
     width: 100%;
+    border-bottom-left-radius: 0px;
   }
   .two {
     width: 100%;
   }
   .three {
     width: 100%;
+    border-top-right-radius: 0px;
+  }
+  .learn {
+    width: 50%;
+  }
+  .learn-1 {
+    width: 50%;
+  }
+  .learn-2 {
+    width: 50%;
   }
 }
